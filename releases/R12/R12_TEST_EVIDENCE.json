@@ -1,0 +1,41 @@
+{
+  "release": "R0.12-A",
+  "sdk": "Momentum mntm-012",
+  "api": "87.1",
+  "appid": "yellow_native",
+  "arm_build": "PASS",
+  "appchk": "PASS",
+  "host_test_suites": {
+    "test_core": "PASS",
+    "test_negative": "PASS",
+    "test_route04": "PASS",
+    "test_battle05": "PASS",
+    "test_capture06": "PASS",
+    "test_party07": "PASS",
+    "test_effects08": "PASS",
+    "test_turns09": "PASS",
+    "test_moves10": "PASS",
+    "test_state_stress10": "PASS",
+    "test_move_forget11": "PASS",
+    "test_type12": "PASS",
+    "test_migration12": "PASS",
+    "test_original_data": "PASS",
+    "test_type_source12": "PASS"
+  },
+  "stress_transitions": 16000,
+  "type_matchup_entries": 82,
+  "upstream_type_chart_sha256": "f7f2286029d4fe64c80ed6cc5f5c75ec1f1b8903a9eabd171deab49e23228d39",
+  "physical_device_run": "NOT_VERIFIED",
+  "fap_bytes": 54056,
+  "fap_sha256": "95351c255a132a754fa2dad0c432e81188d3006b83d5fe478c287b12000ca12f",
+  "save_path": "/ext/apps_data/yellow_native/save_v12.dat",
+  "legacy_migration": [
+    "save_v11.dat",
+    "save_v10.dat"
+  ],
+  "limitations": [
+    "not full Gen1 damage rounding or statuses",
+    "partial adventure, only three usable species",
+    "physical Flipper not executed"
+  ]
+}

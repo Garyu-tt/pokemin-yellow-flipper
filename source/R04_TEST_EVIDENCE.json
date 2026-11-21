@@ -1,0 +1,17 @@
+{
+  "release": "R0.4",
+  "sdk": "Momentum mntm-012",
+  "api": "87.1",
+  "app_id": "yellow_native",
+  "build": "PASS",
+  "appchk": "PASS",
+  "legacy_core_tests": "PASS",
+  "legacy_negative_tests": "PASS",
+  "route04_tests": "PASS",
+  "physical_flipper_test": "NOT_RUN",
+  "fap_bytes": 39976,
+  "fap_sha256": "d9950b82002886d88595c6d395221a114a5eb1289782e59ed5e9fcc893ca696c",
+  "maps": 7,
+  "save": "save_v04.dat",
+  "special_note": "R0.4 battle and scripted intro are simplified, not Gen1-accurate"
+}

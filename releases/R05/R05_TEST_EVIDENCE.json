@@ -1,0 +1,27 @@
+{
+  "release": "R0.5",
+  "date": "2026-10-23",
+  "firmware_sdk": "Momentum mntm-012",
+  "sdk_api": "87.1",
+  "application_id": "yellow_native",
+  "native_compile_link": "PASS",
+  "appchk": "PASS",
+  "tests": {
+    "test_core": "PASS",
+    "test_negative": "PASS",
+    "test_route04": "PASS",
+    "test_battle05": "PASS",
+    "test_original_data": "PASS"
+  },
+  "physical_device_run": "NOT_TESTED",
+  "hardware_fps": "NOT_MEASURED",
+  "fap_bytes": 43136,
+  "fap_sha256": "199c089bcfe2adf3aca10db42ad5b0f65ba29141bf527affde571972acb0b342",
+  "save_path": "/ext/apps_data/yellow_native/save_v05.dat",
+  "known_limits": [
+    "Not complete game",
+    "Battle simplified",
+    "Fixed DVs, no StatExp",
+    "No evolution or catching"
+  ]
+}

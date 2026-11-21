@@ -1,0 +1,11 @@
+App(
+    appid="yellow_glitchlab",
+    name="Yellow GlitchLab",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="yellow_glitchlab_app",
+    stack_size=4 * 1024,
+    fap_category="Games",
+    fap_version="0.1.0",
+    fap_description="Isolated Yellow + GlitchDex",
+    sources=["yellow_flipper.c","yellow_core.c","yellow_assets.c","yellow_battle.c","glitchdex.c","glitchdex_sprites.c"],
+)

@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "upstream_git": "b6696f24b3be84fe64cf702f5a15ba40c66b7f39",
+  "asm_files": 2088,
+  "native_c_and_h_files": 8,
+  "nodes": 25648,
+  "edges": 53941,
+  "nodes_by_kind": {
+    "asm_label": 20694,
+    "background_event": 203,
+    "c_function": 115,
+    "event": 176,
+    "file": 2929,
+    "map": 226,
+    "move": 165,
+    "native_map": 7,
+    "npc": 943,
+    "pokemon": 190
+  },
+  "edges_by_kind": {
+    "branches": 5530,
+    "calls": 8576,
+    "checks_event": 205,
+    "connects_to": 78,
+    "contains_bg_event": 203,
+    "contains_npc": 943,
+    "declares_map": 224,
+    "declares_move": 165,
+    "declares_native_map": 7,
+    "declares_pokemon": 151,
+    "defines": 20809,
+    "describes_map": 224,
+    "dispatches": 1693,
+    "evolves_to": 72,
+    "includes": 2086,
+    "jumps": 2239,
+    "learns_move_at_level": 755,
+    "loads_address": 5242,
+    "native_calls": 234,
+    "references": 2178,
+    "represents_original_map": 7,
+    "resets_event": 17,
+    "sets_event": 149,
+    "starts_with_move": 353,
+    "uses_asset": 988,
+    "warps_to": 813
+  },
+  "resolved_refs": {
+    "call": 8098,
+    "jr": 5530,
+    "jp": 2217,
+    "dw": 2178,
+    "predef": 332,
+    "farcall": 146,
+    "farjp": 22,
+    "dw_const": 1693
+  },
+  "ambiguous_or_unresolved_refs": {
+    "dw": 313,
+    "jp": 46
+  },
+  "unique_world_map_links": 513,
+  "quick_check": "ok",
+  "dangling_edges": 0,
+  "limitations": [
+    "Static graph, not a runnable Game Boy or Tagma equivalent",
+    "Indirect calls, bank switching, CPU flags, timing, mutable state and macros are not fully resolved",
+    "ASM and C function references are heuristic",
+    "Learnset species naming may require manual normalization for special forms",
+    "Native-port status must be determined by separate tests"
+  ]
+}

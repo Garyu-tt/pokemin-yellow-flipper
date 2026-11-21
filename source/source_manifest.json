@@ -1,0 +1,34 @@
+{
+  "upstream": "https://github.com/pret/pokeyellow",
+  "git_commit": "b6696f24b3be84fe64cf702f5a15ba40c66b7f39",
+  "maps": [
+    "PalletTown",
+    "RedsHouse1F",
+    "BluesHouse",
+    "OaksLab",
+    "Route1",
+    "ViridianCity",
+    "ViridianPokecenter"
+  ],
+  "sprites": [
+    "red",
+    "oak",
+    "little_girl",
+    "fisher",
+    "mom",
+    "girl",
+    "blue",
+    "pikachu",
+    "daisy",
+    "pokedex",
+    "poke_ball",
+    "scientist",
+    "youngster",
+    "gambler",
+    "nurse",
+    "gentleman",
+    "cooltrainer_m",
+    "link_receptionist",
+    "chansey"
+  ]
+}

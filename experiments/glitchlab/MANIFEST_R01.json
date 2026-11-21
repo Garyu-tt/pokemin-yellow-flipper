@@ -1,0 +1,27 @@
+{
+  "experiment": "Yellow GlitchLab R01",
+  "catalog_entries": 105,
+  "missingno_entries": 39,
+  "special_ids": [
+    "B6",
+    "B7",
+    "B8"
+  ],
+  "first_out_of_range": "BF",
+  "last_out_of_range": "FF",
+  "original_port_unchanged": true,
+  "fap_sha256": "8230862a10e4c4749f04477fa0116d5da7348d6b3849954d9cb503710a6a113f",
+  "fap_size_bytes": 58192,
+  "emulator_tests": {
+    "menu_summon": true,
+    "fossil_id_B6": true
+  },
+  "physical_flipper_verified": false,
+  "desktop_firmware_status": "COMPILED AND UPDATER_PACKAGE_CREATED",
+  "desktop_firmware_sha256": "f668bc748f354921dac8a22f6987ce07cf3757bb022536fb423db1d50f723e22",
+  "desktop_firmware_bytes": 677129,
+  "desktop_branch": "experiment/glitchdex-desktop",
+  "native_branch": "experiment/glitchdex",
+  "desktop_firmware_physical_test": false,
+  "flipper_flash_attempted": false
+}

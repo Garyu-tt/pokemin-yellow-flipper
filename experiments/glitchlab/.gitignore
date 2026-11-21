@@ -1,0 +1,12 @@
+desktop-firmware/
+evidence/
+source/dist/
+source/.vscode/
+source/SConstruct
+source/commandline.scons
+source/ufbt_options.py
+*.log
+*.exit
+*.o
+tests/test_glitchdex
+__pycache__/

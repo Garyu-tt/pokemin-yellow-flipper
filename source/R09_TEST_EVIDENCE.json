@@ -1,0 +1,40 @@
+{
+  "release": "R0.9",
+  "date": "2026-10-23",
+  "sdk": "Momentum mntm-012",
+  "api": "87.1",
+  "app_id": "yellow_native",
+  "compile_and_link": "PASS",
+  "appchk": "PASS",
+  "tests": {
+    "test_core": "PASS",
+    "test_negative": "PASS",
+    "test_route04": "PASS",
+    "test_battle05": "PASS",
+    "test_capture06": "PASS",
+    "test_party07": "PASS",
+    "test_effects08": "PASS",
+    "test_turns09": "PASS",
+    "test_original_data": "PASS"
+  },
+  "physical_device_run": "NOT_TESTED",
+  "physical_fps": "NOT_MEASURED",
+  "new_features": [
+    "move priority and Quick Attack",
+    "effective speed and paralysis order",
+    "original speed ties",
+    "critical hit roll and damage",
+    "cancelled attack no PP"
+  ],
+  "pinned_gen1_percent_macro": "* 0xff / 100; 25 percent=63, 50 percent+1=128",
+  "fap_bytes": 51080,
+  "fap_sha256": "84ecba4269c0cd9e242bcb16ad24fe7c518d5825d88656edef84dc684813f88e",
+  "save_path": "/ext/apps_data/yellow_native/save_v09.dat",
+  "known_limits": [
+    "partial game only",
+    "simplified AI and move lists",
+    "not fully byte-accurate Gen1",
+    "no device verification",
+    "no save migration"
+  ]
+}

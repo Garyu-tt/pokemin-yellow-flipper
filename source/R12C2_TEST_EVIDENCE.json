@@ -1,0 +1,49 @@
+{
+  "release": "R0.12-C2",
+  "sdk": "Momentum mntm-012",
+  "api": "87.1",
+  "arm_build": "PASS",
+  "appchk": "PASS",
+  "host_C_tests": {
+    "test_core": "PASS",
+    "test_negative": "PASS",
+    "test_route04": "PASS",
+    "test_battle05": "PASS",
+    "test_capture06": "PASS",
+    "test_party07": "PASS",
+    "test_effects08": "PASS",
+    "test_turns09": "PASS",
+    "test_moves10": "PASS",
+    "test_state_stress10": "PASS",
+    "test_move_forget11": "PASS",
+    "test_type12": "PASS",
+    "test_migration12": "PASS",
+    "test_pipeline12b": "PASS",
+    "test_status12c": "PASS",
+    "test_status12c2": "PASS"
+  },
+  "upstream_checks": {
+    "test_original_data": "PASS",
+    "test_type_source12": "PASS"
+  },
+  "stress_transitions": 16000,
+  "physical_flipper_run": "NOT_VERIFIED",
+  "fap_bytes": 56524,
+  "fap_sha256": "4a6951a7ac78ceaed61b4e0ee116b938fec2df25267c0fe8e289141585c4018f",
+  "save_version": 13,
+  "save_path": "/ext/apps_data/yellow_native/save_v13.dat",
+  "legacy": [
+    "save_v12c.dat",
+    "save_v12b.dat",
+    "save_v12.dat",
+    "save_v11.dat",
+    "save_v10.dat"
+  ],
+  "limitations": [
+    "no on-device test",
+    "partial game",
+    "no Fire thaw",
+    "Toxic cap 15 approximation",
+    "no new learned status moves"
+  ]
+}

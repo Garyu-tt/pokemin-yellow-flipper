@@ -1,0 +1,46 @@
+{
+  "release": "R0.10",
+  "source_commit": "b6696f24b3be84fe64cf702f5a15ba40c66b7f39",
+  "sdk": "Momentum mntm-012",
+  "api": "87.1",
+  "app_id": "yellow_native",
+  "fap_bytes": 51960,
+  "fap_sha256": "a1eac5be7c06898d744aa5e7758eec62c28f0c6394c086cb79f0eabc53e4d179",
+  "native_arm_compile": "PASS",
+  "sdk_appchk": "PASS",
+  "host_tests": {
+    "test_core": "PASS",
+    "test_negative": "PASS",
+    "test_route04": "PASS",
+    "test_battle05": "PASS",
+    "test_capture06": "PASS",
+    "test_party07": "PASS",
+    "test_effects08": "PASS",
+    "test_turns09": "PASS",
+    "test_moves10": "PASS",
+    "test_state_stress10": "PASS",
+    "test_original_data": "PASS"
+  },
+  "stress_transition_count": 16000,
+  "usb_flipper_detected": "NOT_VERIFIED",
+  "physical_flipper_execution": "NOT_TESTED",
+  "physical_fps": "NOT_MEASURED",
+  "binary_save_path": "/ext/apps_data/yellow_native/save_v10.dat",
+  "changes": [
+    "persistent four-move per-Pokemon arrays",
+    "new level-up schedules",
+    "Thunder Wave",
+    "Double Team evasion",
+    "Slam",
+    "Thunderbolt",
+    "Hyper Fang flinch",
+    "fix fainted Pikachu when other party member alive"
+  ],
+  "known_limitations": [
+    "not full game",
+    "forget-oldest move policy is non-canonical",
+    "no complete battle rules",
+    "no save migration",
+    "no device execution proof"
+  ]
+}

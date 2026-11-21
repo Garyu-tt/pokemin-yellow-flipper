@@ -1,0 +1,38 @@
+{
+  "release": "R0.7",
+  "date": "2026-10-23",
+  "firmware_sdk": "Momentum mntm-012",
+  "sdk_api": "87.1",
+  "application_id": "yellow_native",
+  "native_compile_and_link": "PASS",
+  "appchk": "PASS",
+  "tests": {
+    "test_core": "PASS",
+    "test_negative": "PASS",
+    "test_route04": "PASS",
+    "test_battle05": "PASS",
+    "test_capture06": "PASS",
+    "test_party07": "PASS",
+    "test_original_data": "PASS"
+  },
+  "physical_flipper_execution": "NOT_TESTED",
+  "device_fps": "NOT_MEASURED",
+  "features": [
+    "active team switching",
+    "forced faint replacement",
+    "independent battle HP PP EXP levels",
+    "participation EXP splitting",
+    "new rear sprites"
+  ],
+  "known_limitations": [
+    "limited to 7 original maps",
+    "only 3 usable species in party",
+    "no full Gen1 battle logic",
+    "Sand Attack accuracy effect not implemented",
+    "no real-device UI verification",
+    "no save migration from prior releases"
+  ],
+  "size_bytes": 48444,
+  "fap_sha256": "070e86d9f4748caeeca5869ff38f7ce0b44c428287dc9bb881b6c5b2fe706dd3",
+  "save_path": "/ext/apps_data/yellow_native/save_v07.dat"
+}

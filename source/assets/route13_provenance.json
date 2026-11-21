@@ -1,0 +1,58 @@
+{
+  "upstream": "https://github.com/pret/pokeyellow",
+  "git_commit": "b6696f24b3be84fe64cf702f5a15ba40c66b7f39",
+  "maps": [
+    {
+      "name": "Route2",
+      "width_blocks": 10,
+      "height_blocks": 36,
+      "map_blk_sha256": "09c6caeadb7ed37a0ddc11982c12d627fac300a21b705d2d22780935b2cf1bc1",
+      "tileset": "overworld",
+      "blockset_sha256": "c4f6d88cc7dea8196aa51d3aa059c6d1da0ea45718dd12870fcddee9f9304d50",
+      "tileset_png_sha256": "71b4f450e324fb8d1f775cd49f1b6cc65adcbf978bfe797ec01fb59178819e8d",
+      "object_events_sha256": "f1eedc125401f37dedb3b7b341690c65a803cf719a626edab5321f11038d23fa",
+      "header_sha256": "68f23142cf8b7e770062dbb680a5e1058a357e26794930183f569981f7365bfe"
+    },
+    {
+      "name": "ViridianForest",
+      "width_blocks": 17,
+      "height_blocks": 24,
+      "map_blk_sha256": "00ac48b1b901443f2e73b8ef7d6ebd4ae478966538ef8f29ec2385c4630d9965",
+      "tileset": "forest",
+      "blockset_sha256": "c89e781078a80b59bdbda6aa74f57e96fe4b0837192a1be65c5d12b00a42ef89",
+      "tileset_png_sha256": "97bc326f02bbf9c04447dc41ff0f552f35c0c76c331c997b2dc8ce9e61c6bbef",
+      "object_events_sha256": "f989b7bacc01db6b8ed1246ea7f92e063379fd4d6dc1ce9a83dc97b612aa54ae",
+      "header_sha256": "b88358a783427bf9e8fe956a3ebf9c8339dfa3d612b2c4f8067c95858ddc69b4"
+    },
+    {
+      "name": "ViridianForestSouthGate",
+      "width_blocks": 5,
+      "height_blocks": 4,
+      "map_blk_sha256": "4089e5ec333ab81babc30b62bf81d2a40b48722ea0b9a7d7d57453cd454bec14",
+      "tileset": "gate",
+      "blockset_sha256": "4750eb936829801e37ef72a2cdc6f941df43efe2184de9237851523005a65a1c",
+      "tileset_png_sha256": "0f1cb800186b618f992d3633aa541398cf66de231ff3e57bc3b8230a99620e24",
+      "object_events_sha256": "5e4a998dbd3522938c8db94ea208b07c707d62178c1ba8926990df8501ce0414",
+      "header_sha256": "bad278cd3b4387a07499cd8ac196941b4537961c29a8dfd4dae3ef2607ebfc1a"
+    },
+    {
+      "name": "ViridianForestNorthGate",
+      "width_blocks": 5,
+      "height_blocks": 4,
+      "map_blk_sha256": "4089e5ec333ab81babc30b62bf81d2a40b48722ea0b9a7d7d57453cd454bec14",
+      "tileset": "gate",
+      "blockset_sha256": "4750eb936829801e37ef72a2cdc6f941df43efe2184de9237851523005a65a1c",
+      "tileset_png_sha256": "0f1cb800186b618f992d3633aa541398cf66de231ff3e57bc3b8230a99620e24",
+      "object_events_sha256": "e334f404dd063045187792baae3665a90ff2f8139fa7831a88e2bbf5282d300d",
+      "header_sha256": "8951b8c0d5360458a8bfd7097fd5878ae3497c5e0eb00c24436fc1ecc55cda87"
+    }
+  ],
+  "source_sha256": {
+    "yellow_assets.c": "3593365fbe1208bdccc89bc1941d32ddbddc734be42da48b64605dfe260018a2",
+    "yellow_assets.h": "9f950a22380925a8867ecafcc7e725b14c6220c8c68945f5be9b1c54116ac618",
+    "generate_assets.py": "ca0622fcf7225ea40895118f0035ee636ccd5cdc033e8bfc95105bd42028e34e"
+  },
+  "source_collisions_sha256": "6f5bf9739346e6ec385c728269fe3e9145a5fbc938af8eca8c26161bdba51c8e",
+  "scope": "partial map and navigational adaptation; not full game; no physical device test",
+  "warp_implementation": "entry tiles from pinned object files, adjacent spawn coordinates chosen to be traversable"
+}

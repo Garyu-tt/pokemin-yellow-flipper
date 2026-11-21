@@ -1,0 +1,23 @@
+{
+  "release": "R0.6",
+  "date": "2026-10-23",
+  "sdk": "Momentum mntm-012",
+  "api": "87.1",
+  "app_id": "yellow_native",
+  "arm_build": "PASS",
+  "api_import_check": "PASS",
+  "physical_flipper_run": "NOT_VERIFIED",
+  "tests": {
+    "core": "PASS",
+    "negative": "PASS",
+    "route04": "PASS",
+    "battle05": "PASS",
+    "capture06": "PASS",
+    "original_data": "PASS"
+  },
+  "fap_size": 45168,
+  "fap_sha256": "f0ea890cc748fc665f46dcc7739204593b5862fb04c4416106706d78e3ff7d64",
+  "save_file": "/ext/apps_data/yellow_native/save_v06.dat",
+  "current_limit": "max 6 collected including Pikachu; no switching in battle, no PC",
+  "canonical_source": "pret/pokeyellow pinned in source_manifest.json"
+}

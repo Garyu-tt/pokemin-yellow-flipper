@@ -1,0 +1,39 @@
+{
+  "release": "R0.8",
+  "date": "2026-10-23",
+  "sdk": "Momentum mntm-012",
+  "api": "87.1",
+  "appid": "yellow_native",
+  "native_compile_link": "PASS",
+  "appchk": "PASS",
+  "tests": {
+    "test_core": "PASS",
+    "test_negative": "PASS",
+    "test_route04": "PASS",
+    "test_battle05": "PASS",
+    "test_capture06": "PASS",
+    "test_party07": "PASS",
+    "test_effects08": "PASS",
+    "test_original_data": "PASS"
+  },
+  "physical_flipper_execution": "NOT_TESTED",
+  "FPS": "NOT_MEASURED",
+  "fap_bytes": 49744,
+  "fap_sha256": "0629a40e0a69f988bdd650938ea9c03aee0a32efd5a54fc6c9f59533b8c3009c",
+  "save_path": "/ext/apps_data/yellow_native/save_v08.dat",
+  "features": [
+    "Sand Attack accuracy stages",
+    "ThunderShock paralysis chance",
+    "25% full paralysis",
+    "team status save/healing",
+    "paralyzed foe catch modifier"
+  ],
+  "limitations": [
+    "not full game",
+    "no full status ailments",
+    "no speed-based action ordering",
+    "no critical hit system",
+    "no full Gen1 accuracy",
+    "no save migration"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "release": "R0.3",
+  "sdk": "Momentum mntm-012",
+  "api": "87.1",
+  "application_id": "yellow_native",
+  "fap_bytes": 27048,
+  "fap_sha256": "8113ab847f5f0d22d5742991280181f3182b08c5f4fb2f7b8c30df89fae52d9a",
+  "native_build": "PASS",
+  "appchk": "PASS",
+  "core_test": "PASS",
+  "negative_test": "PASS",
+  "actual_flipper_execution": "NOT_TESTED",
+  "ui_physical_validation": "NOT_TESTED",
+  "main_known_limit": "Reduced intro and battle; not full Yellow",
+  "asset_layout": "one translation unit"
+}

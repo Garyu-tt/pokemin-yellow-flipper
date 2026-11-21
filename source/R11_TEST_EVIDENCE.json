@@ -1,0 +1,34 @@
+{
+  "release": "R0.11",
+  "sdk": "Momentum mntm-012",
+  "api": "87.1",
+  "appid": "yellow_native",
+  "arm_build": "PASS",
+  "appchk": "PASS",
+  "stress_transitions": 16000,
+  "host_tests": {
+    "test_core": "PASS",
+    "test_negative": "PASS",
+    "test_route04": "PASS",
+    "test_battle05": "PASS",
+    "test_capture06": "PASS",
+    "test_party07": "PASS",
+    "test_effects08": "PASS",
+    "test_turns09": "PASS",
+    "test_moves10": "PASS",
+    "test_state_stress10": "PASS",
+    "test_move_forget11": "PASS",
+    "test_original_data": "PASS"
+  },
+  "physical_flipper_execution": "NOT_VERIFIED",
+  "fap_bytes": 53316,
+  "fap_sha256": "b8277eb9dabf895cfc8a5bf1a994a40e6e5c2fe8455fe382ee3784578d64d608",
+  "save_file": "/ext/apps_data/yellow_native/save_v11.dat",
+  "legacy_source": "/ext/apps_data/yellow_native/save_v10.dat",
+  "migration": "verify legacy checksum and content, preserve original, write new only",
+  "limitations": [
+    "partial game",
+    "not full battle engine",
+    "no real hardware validation"
+  ]
+}

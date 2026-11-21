@@ -1,0 +1,11 @@
+App(
+    appid="yellow_native",
+    name="Yellow Native",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="yellow_native_app",
+    stack_size=4 * 1024,
+    fap_category="Games",
+    fap_version="0.12.7",
+    fap_description="Optical motion 20fps and source-derived regional music",
+    sources=["yellow_flipper.c", "yellow_core.c", "yellow_assets.c", "yellow_forest_sprites.c", "yellow_battle.c", "yellow_bulk_storage.c", "yellow_bulk_data.c", "pydp_reader.c", "pyts_reader.c", "pytg_reader.c", "yellow_route1_viewport.c", "yellow_owner_pewter_source.c", "yellow_pewter_progress.c", "yellow_oak_postparcel.c", "yellow_whiteout_preflight.c", "yellow_oak_quest_consistency.c", "yellow_whiteout_lastmap.c", "yellow_whiteout_slot.c", "yellow_blackout_destination.c", "yellow_whiteout_money_slot.c", "yellow_antidote_cure.c", "yellow_antidote_game.c", "yellow_antidote_inventory_slot.c", "yellow_viridian_mart_purchase.c", "yellow_money_stock_slot.c", "yellow_mart_runtime.c"],
+)

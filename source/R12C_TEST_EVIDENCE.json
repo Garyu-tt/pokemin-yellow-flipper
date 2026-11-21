@@ -1,0 +1,54 @@
+{
+  "release": "R0.12-C_partial",
+  "sdk": "Momentum mntm-012",
+  "sdk_api": "87.1",
+  "appid": "yellow_native",
+  "arm_compile": "PASS",
+  "appchk": "PASS",
+  "host_c_suites": {
+    "test_core": "PASS",
+    "test_negative": "PASS",
+    "test_route04": "PASS",
+    "test_battle05": "PASS",
+    "test_capture06": "PASS",
+    "test_party07": "PASS",
+    "test_effects08": "PASS",
+    "test_turns09": "PASS",
+    "test_moves10": "PASS",
+    "test_state_stress10": "PASS",
+    "test_move_forget11": "PASS",
+    "test_type12": "PASS",
+    "test_migration12": "PASS",
+    "test_pipeline12b": "PASS",
+    "test_status12c": "PASS"
+  },
+  "upstream_python_checks": {
+    "test_original_data": "PASS",
+    "test_type_source12": "PASS"
+  },
+  "stress_transitions": 16000,
+  "physical_flipper_run": "NOT_VERIFIED",
+  "fap_bytes": 55060,
+  "fap_sha256": "5a7144e623581ccdd34c6d76742a6fa4e0de4e1312f7fe65cbc19913c0c69bb2",
+  "save_file": "/ext/apps_data/yellow_native/save_v12c.dat",
+  "compatible_previous": [
+    "save_v12b.dat",
+    "save_v12.dat",
+    "save_v11.dat",
+    "save_v10.dat"
+  ],
+  "save_layout_version": 12,
+  "new_features": [
+    "burn and poison nonzero residual",
+    "physical burn damage penalty",
+    "saved status data",
+    "capture 12 bonus for burn/poison",
+    "residual faint/whiteout"
+  ],
+  "known_limits": [
+    "incomplete status system: no sleep/freeze/Toxic",
+    "current game move catalog does not inflict burn or poison",
+    "approximate damage math and RNG",
+    "hardware run unverified"
+  ]
+}

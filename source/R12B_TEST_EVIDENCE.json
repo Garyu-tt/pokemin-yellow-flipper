@@ -1,0 +1,44 @@
+{
+  "release": "R0.12-B",
+  "sdk": "Momentum mntm-012",
+  "api": "87.1",
+  "app_id": "yellow_native",
+  "arm_build": "PASS",
+  "appchk": "PASS",
+  "c_tests": {
+    "test_core": "PASS",
+    "test_negative": "PASS",
+    "test_route04": "PASS",
+    "test_battle05": "PASS",
+    "test_capture06": "PASS",
+    "test_party07": "PASS",
+    "test_effects08": "PASS",
+    "test_turns09": "PASS",
+    "test_moves10": "PASS",
+    "test_state_stress10": "PASS",
+    "test_move_forget11": "PASS",
+    "test_type12": "PASS",
+    "test_migration12": "PASS",
+    "test_pipeline12b": "PASS"
+  },
+  "upstream_data_tests": {
+    "test_original_data": "PASS",
+    "test_type_source12": "PASS"
+  },
+  "stress_transitions": 16000,
+  "physical_flipper_run": "NOT_VERIFIED",
+  "measured_fps": "NOT_AVAILABLE",
+  "fap_bytes": 54164,
+  "fap_sha256": "9cd2a7dcfef6943647dc8b7d2f880d940a216710889dcb5ea96b6149b27c5ce6",
+  "save_path": "/ext/apps_data/yellow_native/save_v12b.dat",
+  "previous_save": "/ext/apps_data/yellow_native/save_v12.dat",
+  "save_wire_version": 12,
+  "migration": "validated R12 save imported to independent R12B file",
+  "feature": "Shared bidirectional battle action and effect dispatcher",
+  "limitations": [
+    "partial original game",
+    "RNG draw order not fully verified",
+    "only currently ported effects",
+    "no hardware test"
+  ]
+}
