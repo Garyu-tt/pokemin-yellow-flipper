@@ -1,0 +1,31 @@
+# Local SDK and build outputs (experimental release FAPs are tracked explicitly)
+.fbt/
+.firmware/
+build/
+.cache/
+__pycache__/
+*.pyc
+*.o
+*.elf
+*.map
+*.d
+*.tmp
+*.swp
+.vscode/
+.idea/
+
+# Never commit game ROMs, personal save files, or credentials
+*.gb
+*.gbc
+*.sav
+*.srm
+*.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Historical workspaces are intentionally archived outside this repository
+source.before-development-*/
+desktop-firmware/
